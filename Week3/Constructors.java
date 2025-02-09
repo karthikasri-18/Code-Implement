@@ -26,8 +26,9 @@ class Default {
 
 public class Constructors {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@SuppressWarnings("unused")
+    public static void main(String[] args) {
+		
 		Default obj1 = new Default();
 		Default obj2 = new Default(3,23);
 		Default obj3 = new Default(obj2);
