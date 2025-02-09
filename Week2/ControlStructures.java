@@ -1,6 +1,5 @@
 public class ControlStructures {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("if..else Statement");
 		int age = 21;
 		System.out.println("The given age is 21");
