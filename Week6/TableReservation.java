@@ -5,7 +5,7 @@ abstract class Restaurant {
     protected int numberOf4Seaters = 10;
     protected int numberOf6Seaters = 4;
 
-    public abstract boolean checkTableAvailability(int numberOfGuests);
+    public abstract int checkTableAvailability(int numberOfGuests);
 }
 
 class Reservation extends Restaurant {
@@ -45,31 +45,31 @@ class Reservation extends Restaurant {
     }
 
     @Override
-    public boolean checkTableAvailability(int numberOfGuests) {
+    public int checkTableAvailability(int numberOfGuests) {
         System.out.println("Checking Table Availability for " + customerName + ":");
         if (numberOfGuests <= 0) {
             System.out.println("Invalid number of guests!");
             reservationStatus = "Unsuccessful";
-            return false;
+            return 0;
         } else if (numberOfGuests <= 2 && numberOf2Seaters > 0) {
             numberOf2Seaters--;
             System.out.println("Table Available! Reservation Successful!");
             reservationStatus = "Successful";
-            return true;
+            return 1;
         } else if (numberOfGuests <= 4 && numberOf4Seaters > 0) {
             numberOf4Seaters--;
             System.out.println("Table Available! Reservation Successful!");
             reservationStatus = "Successful";
-            return true;
+            return 1;
         } else if (numberOfGuests <= 6 && numberOf6Seaters > 0) {
             numberOf6Seaters--;
-            reservationStatus = "Successful";
             System.out.println("Table Available! Reservation Successful!");
-            reservationStatus = "Unsuccessful";
-            return true;
+            reservationStatus = "Successful";
+            return 1;
         } else {
             System.out.println("Sorry! Table is not available! Reservation failed!");
-            return false;
+            reservationStatus = "Unsuccessful";
+            return 0;
         }
     }
 
@@ -87,7 +87,7 @@ public class TableReservation {
         reserv1.checkTableAvailability(reserv1.getNumberOfGuests());
         reserv1.displayReservationDetails();
 
-        Reservation reserv2 = new Reservation("Priya",-4,"7:30");
+        Reservation reserv2 = new Reservation("Priya",-4,"16:30");
         reserv2.checkTableAvailability(reserv2.getNumberOfGuests());
         reserv2.displayReservationDetails();
     }
