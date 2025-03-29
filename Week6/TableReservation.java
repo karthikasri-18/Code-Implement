@@ -4,7 +4,7 @@ abstract class Restaurant {
     protected int numberOf2Seaters = 6;
     protected int numberOf4Seaters = 10;
     protected int numberOf6Seaters = 4;
-    
+
     public abstract int checkTableAvailability(int numberOfGuests);
 }
 
