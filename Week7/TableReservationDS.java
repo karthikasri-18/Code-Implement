@@ -60,7 +60,7 @@ class Reservation extends Restaurant {
     public int checkTableAvailability(int numberOfGuests) throws InvalidGuestException {
         System.out.println("Checking Table Availability for " + customerName + ":");
         if (numberOfGuests <= 0) {
-            throw new InvalidGuestException("Invalid number of guests! Must be atleast 1.");
+            throw new InvalidGuestException("Invalid number of guests! Must have atleast 1 guest.");
         }
         else if (numberOfGuests <= 2 && tableAvailability.get(2) > 0) {
             tableAvailability.put(2, tableAvailability.get(2) - 1);
