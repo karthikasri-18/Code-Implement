@@ -1,0 +1,145 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Blocks",
+            "request": "launch",
+            "mainClass": "Blocks",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Constructors",
+            "request": "launch",
+            "mainClass": "Constructors",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "ControlStructures",
+            "request": "launch",
+            "mainClass": "ControlStructures",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Encap",
+            "request": "launch",
+            "mainClass": "Encap",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "HierarchyInherit",
+            "request": "launch",
+            "mainClass": "HierarchyInherit",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "TableReservationDB",
+            "request": "launch",
+            "mainClass": "JDBC.TableReservationDB",
+            "classPaths": [
+                ".",
+                "C:/Program Files/Java/mysql-connector-j-9.3.0/mysql-connector-j-9.3.0.jar"],
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "MultilevelInherit",
+            "request": "launch",
+            "mainClass": "MultilevelInherit",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Polymorph",
+            "request": "launch",
+            "mainClass": "Polymorph",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "SingleInherit",
+            "request": "launch",
+            "mainClass": "SingleInherit",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "CheckExcept",
+            "request": "launch",
+            "mainClass": "Week5.CheckExcept",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "CustomExcept",
+            "request": "launch",
+            "mainClass": "Week5.CustomExcept",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "Interface",
+            "request": "launch",
+            "mainClass": "Week5.Interface",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "MultipleInherit",
+            "request": "launch",
+            "mainClass": "Week5.MultipleInherit",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "UncheckExcept",
+            "request": "launch",
+            "mainClass": "Week5.UncheckExcept",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "TableReservation",
+            "request": "launch",
+            "mainClass": "Week6.TableReservation",
+            "projectName": "Code-Implement_1d7548b3"
+        },
+        {
+            "type": "java",
+            "name": "TableReservationDS",
+            "request": "launch",
+            "mainClass": "Week7.TableReservationDS",
+            "projectName": "Code-Implement_1d7548b3"
+        }
+    ]
+}
